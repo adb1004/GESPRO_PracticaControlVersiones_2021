@@ -27,7 +27,6 @@ build/
 gradle-app.setting
 
 # Sensitive files
-*.jks
 secrets/keystore\.properties
 secrets/secrets\.tar
 
