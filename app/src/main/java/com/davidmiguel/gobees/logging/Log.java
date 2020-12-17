@@ -41,11 +41,11 @@ public class Log {
         if (BuildConfig.DEBUG) {
             Timber.plant(new DebugTree());
         }
-                // Log to Crashlytics
+        // Log to Crashlytics
         Timber.plant(new CrashlyticsTree());
         // Attach build info
-        setCommitHash(BuildConfig.COMMIT_HASH);
-        setBuildDate(BuildConfig.BUILD_DATE);
+         setCommitHash(BuildConfig.COMMIT_HASH);
+         setBuildDate(BuildConfig.BUILD_DATE);
     }
 
     /**
